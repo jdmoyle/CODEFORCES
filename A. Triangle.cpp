@@ -1,5 +1,4 @@
 #include <iostream>
-#include<vector>
 using namespace std;
 
 int a[4]={1,0,0,-1};
@@ -33,14 +32,6 @@ int main() {
 		cout<<"RIGHT";
 		exit(0);
 	}
-	
-	vector<int> v;
-	v.push_back(x1);
-	v.push_back(y1);
-	v.push_back(x2);
-	v.push_back(y2);
-	v.push_back(x3);
-	v.push_back(y3);
 	
 	for(int i=0;i<4;i++){
 			
